@@ -120,7 +120,7 @@ a:focus {
 }
 
 a {
-    color: #5d6b82;
+    color: #374082;
 }
 
 .fix {
@@ -317,7 +317,7 @@ input:-webkit-autofill:focus {
 }
 
 .dark-bg {
-    background: #5d6b82;
+    background: #374082;
     color: #ffffff;
 }
 
@@ -538,7 +538,7 @@ ul#nav li.active a {
 }
 
 .is-sticky .mainmenu-area {
-    background: #212121;
+    background: red;
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
     z-index: 99999;
@@ -793,7 +793,8 @@ ul#nav li ul a,
 }
 
 .read-more {
-    background: #5d6b82 none repeat scroll 0 0;
+    /*footer color*/
+    background: #374082 none repeat scroll 0 0;
     border-radius: 5px;
     color: #fff;
     display: inline-block;
@@ -854,7 +855,7 @@ ul#nav li ul a,
 
 
 .quote-form button {
-    background: #5d6b82 none repeat scroll 0 0;
+    background: #374082 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 5px;
     color: #fff;
@@ -1056,7 +1057,7 @@ ul#nav li ul a,
 }
 
 .service-icon {
-    background: #5d6b82 none repeat scroll 0 0;
+    background: #374082 none repeat scroll 0 0;
     bottom: 7px;
     color: #fff;
     font-size: 24px;
@@ -1075,7 +1076,7 @@ ul#nav li ul a,
 
 .service-icon::before,
 .service-icon::after {
-    background: #5d6b82 none repeat scroll 0 0;
+    background: #374082 none repeat scroll 0 0;
     content: "";
     height: 100%;
     position: absolute;
@@ -1229,7 +1230,7 @@ ul#nav li ul a,
 }
 
 .client-details-content .item::after {
-    color: #5d6b82;
+    color: #374082;
     content: "\f10d";
     font-family: fontawesome;
     font-size: 60px;
@@ -1258,7 +1259,7 @@ ul#nav li ul a,
 }
 
 .client_nav span {
-    background: #5d6b82 none repeat scroll 0 0;
+    background: #374082 none repeat scroll 0 0;
     border-radius: 5px;
     color: #fff;
     display: inline-block;
@@ -1582,7 +1583,7 @@ ul#nav li ul a,
 }
 
 .member-social-bookmark {
-    background: #5d6b82 none repeat scroll 0 0;
+    background: #374082 none repeat scroll 0 0;
     border-radius: 5px;
     margin-top: 25px;
     padding: 15px 0;
@@ -1678,7 +1679,7 @@ ul#nav li ul a,
 }
 
 .contact-area button {
-    background: #5d6b82 none repeat scroll 0 0;
+    background: #374082 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 3px;
     color: #fff;
@@ -2003,7 +2004,7 @@ a.scrolltotop:hover {
 }
 
 .widget_search form button {
-    background: #5d6b82 none repeat scroll 0 0;
+    background: #374082 none repeat scroll 0 0;
     border: 0 none;
     color: #fff;
     height: 100%;
@@ -2143,7 +2144,7 @@ blockquote::before {
 }
 
 .comment-form button {
-    background: #5d6b82 none repeat scroll 0 0;
+    background: #374082 none repeat scroll 0 0;
     border: 0 none;
     color: #fff;
     padding: 10px 20px;
