@@ -20,10 +20,12 @@
 			$ridno = $_POST['ridno'];
 			$rcountry = $_POST['rcountry'];
 			$rtown = $_POST['rtown'];
+			$timee = $_POST['timee'];
+			$datee = $_POST['datee'];
 			$message = $_POST['message'];
 
 
-			$qry = mysqli_query ($con, "INSERT INTO parcels (name, email, tel, idno, country, town, rname, remail, rtel, ridno, rcountry, rtown, message) VALUES ('$name','$email','$tel','$idno','$country','$town','$rname','$remail','$rtel','$ridno','$rcountry','$rtown','$message')");
+			$qry = mysqli_query ($con, "INSERT INTO parcels (name, email, tel, idno, country, town, timee, datee, rname, remail, rtel, ridno, rcountry, rtown, message) VALUES ('$name','$email','$tel','$idno','$country','$town' ,'$timee','$datee','$rname','$remail','$rtel','$ridno','$rcountry','$rtown','$message')");
 
 			if($qry){
 				echo "Successfully Registered";
