@@ -11,8 +11,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Transportation & Agency Template is a simple Smooth transportation and Agency Based Template" />
-    <meta name="keywords" content="Portfolio, Agency, Onepage, Html, Business, Blog, Parallax" />
+    <meta name="description" content="BDS Service is a privately owned family business established in 2015 in Belgium...." />
+    <meta name="keywords" content="Parcel, Agency, Transport,Export, Import, Bwds, Best Services" />
 
     <!--====== TITLE TAG ======-->
    <title>Best World Delivery Services - BDS</title>
@@ -133,7 +133,7 @@
                 <div class="row flex-v-center">
                     <div class="col-md-10 col-md-offset-1">
                         <div class="welcome-text text-center">
-                            <h1>Successfully Registered</h1>
+                            <h1>Successfully Tracked</h1>
                             
                         </div>
                     </div>
@@ -150,16 +150,16 @@
 	}
 	else{
 		$search = $_POST['search'];
-		echo "$search";
+		
 		$qry =  "SELECT * FROM parcels where id = '$search'";
 		$res = mysqli_query($con,$qry);
 		if(mysqli_num_rows($res)>0){
 			while ($row= mysqli_fetch_assoc($res)){
-				echo "Parcel Number: " .$row['id']."<br> Sent By: ". $row['name']." Sent To: ". $row['rname']."<br> From ". $row['town']." To ". $row['rtown']." Was Sent on ". $row['datee']." ".$row['timee'];
+				echo "<center><h3><br><br>Parcel Number: " .$row['id']."<br> Sent By: ". $row['name']." Sent To: ". $row['rname']."<br> From ". $row['town']." To ". $row['rtown']." Was Sent on ". $row['datee']." ".$row['timee']."</h3></center><br><br>";
 			}
 		}
 		else{
-			echo "The Track Number is not Valid";
+			echo "<center style ='color: red'><h3><br><br>The Track Number is not Valid</h3></center><br><br>";
 		}
 	}
 	
