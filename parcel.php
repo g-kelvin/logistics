@@ -1,6 +1,6 @@
 <?php 
 
-	$con= mysqli_connect("localhost","root", "","bds");
+	$con= mysqli_connect("localhost","root", "oZG)K#8y0r26hB","bwdscoke_bwds");
 	if(!$con){
 		echo "connection_aborted";
 	}
