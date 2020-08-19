@@ -173,7 +173,7 @@
             $qry = mysqli_query ($con, "INSERT INTO parcels (name, email, tel, idno, country, town, timee, datee, rname, remail, rtel, ridno, rcountry, rtown, message) VALUES ('$name','$email','$tel','$idno','$country','$town' ,'$timee','$datee','$rname','$remail','$rtel','$ridno','$rcountry','$rtown','$message')");
 
             if($qry){
-                echo "<br><br><br><h1>Successfully Registered</h1><br><br><br>";
+                echo "<center><br><br><br><h1>Successfully Registered</h1><br><br><br></center>";
             }
 
             else{
