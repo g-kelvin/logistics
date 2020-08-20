@@ -198,26 +198,23 @@
             <div class="row">
                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                     <div class="quote-form-area wow fadeIn">
-                        <h3>Make An  Inquiry </h3>
-                        <form class="quote-form" action="#">
+                         <h3>Make Inquiry</h3>
+                        <form class="quote-form" action="message.php" method="POST">
                             <p class="width-full">
-                                <input type="text" name="name" id="name" placeholder="Your Name">
+                                <input type="text" name="name"  placeholder="Your Name" required>
                             </p>
                             <p class="width-half">
-                                <input type="email" name="email" id="email" placeholder="Email">
-                                <input class="pull-right" type="phone" name="phone" id="phone" placeholder="Phone">
+                                <input type="email" name="email"  placeholder="Your Email" required>
+                                <input class="pull-right" type="text" name="tel"  placeholder="Phone Number" required>
                             </p>
-                            <p class="width-half">
-                                <input type="text" name="type" id="type" placeholder="Type">
-                                <input class="pull-right" type="text" name="quantity" id="quantity" placeholder="Quantity">
-                            </p>
+                            
                             <p class="width-full">
-                                <input type="text" name="destination" id="destination" placeholder="Destination">
+                                <input type="text" name="subject"  placeholder="Subject" required>
                             </p>
                             <p>
-                                <textarea name="quote-message" id="quote-message" cols="30" rows="4" placeholder="Your Message..."></textarea>
+                                <textarea name="message"  cols="30" rows="4" placeholder="Your Message..." required></textarea>
                             </p>
-                            <button type="submit">Send</button>
+                            <button type="submit" name="submit">Send</button>
                         </form>
                     </div>
                 </div>

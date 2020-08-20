@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="BDS Service is a privately owned family business established in 2015 in Belgium...." />
+    <meta name="description" content="BDS Service is a privately owned family business established in 2015 in Belgium...." />
     <meta name="keywords" content="Parcel, Agency, Transport,Export, Import, Bwds, Best Services" />
 
     <!--====== TITLE TAG ======-->
@@ -57,7 +57,7 @@
     <header class="top-area" id="home">
         <div class="top-area-bg" data-stellar-background-ratio="0.6"></div>
         <div class="header-top-area">
-             <!--MAINMENU AREA-->
+            <!--MAINMENU AREA-->
             <div class="mainmenu-area" id="mainmenu-area">
                 <div class="mainmenu-area-bg"></div>
                 <nav class="navbar">
@@ -107,8 +107,7 @@
 
                                         <li><a href="service.html">Service</a>
                                     <ul>
-                                        <li><a href="service.html">Service</a></li>
-
+                                        <li><a href="service.html">Services</a></li>
                                     </ul>
                                 </li>
 
@@ -120,7 +119,6 @@
 
 
                                 <li><a href="contact.html">Contact</a>
-                                   
                                 </li>
                             </ul>
                         </div>
@@ -135,8 +133,8 @@
                 <div class="row flex-v-center">
                     <div class="col-md-10 col-md-offset-1">
                         <div class="welcome-text text-center">
-                            <h1>Career Page</h1>
-                            <p>This is the official BDS Careers portal</p>
+                            <h1>Successfully Sent</h1>
+                            
                         </div>
                     </div>
                 </div>
@@ -144,41 +142,40 @@
         </div>
     </header>
     <!--END TOP AREA-->
+<?php 
+    if(isset($_POST['submit'])){
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $tel = $_POST['tel'];
+        $subject = $_POST['subject'];
+        $message = $_POST['message'];
+
+        
+       
+        $to = "info@bwds.co.ke";
+        $subject ="Email from Website. Subjects is: ".$subject;
+        $message ="My Name is : ".$name. " of Email: ".$email." and Tel". $tel." The Following is my message: ".$message;
+        $headers ="From: ".$email;
+         if(mail($to,$subject,$message,$headers)){
+            
+          echo " <b>Message Sent. Thank You $name  for your Message.<b>";
+}
+
+else {
+    echo "Not Sent";
+    
+}
+
+       
 
 
-    <!--ABOUT AREA-->
-    <section class="about-area gray-bg section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
-                    <div class="area-title text-center wow fadeIn">
-                        <h2>welcome to Our Careers Portal !</h2>
-                        <p>Visit Our Careers Section </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
-                    <div class="about-left-content-area wow fadeIn">
-                        <img src="img/about/about-cargo.png" alt="">
-                        <p>Career opportunities within   BDS Group, as our teams around the world. With over 30,000 employees in over 20 countries and territories, we connect people, improving their lives..</p>
-                    </div>
-                </div>
-                <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
-                    <div class="about-content-area wow fadeIn">
-                        <div class="about-content">
-                            <h2>There is not Vacancies currently</h2>
-                            <p>At <B style = "color: red">BDS</B>, we don’t just accept difference — we celebrate it, we support it, and we thrive on it for the benefit of our employees, our products, and our community. Best World Delivery Services is proud to be an equal opportunity workplace and is an affirmative action employer.<br><br>
-                            Send us your Resume via <b style = "color: red"> careers@softwaretechn.co.ke</b></p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--ABOUT AREA END-->
+    }
+    else
+    {
+        echo "try again";
+    }
 
+ ?>
 
 
     <!--FOOER AREA-->
