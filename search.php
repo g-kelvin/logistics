@@ -63,7 +63,7 @@
                 <nav class="navbar">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="#home" class="navbar-brand"><img src="img/logo.png" alt="logo"></a>
+                            <a href="https://www.bwds.co.ke" class="navbar-brand"><img src="img/logo.png" alt="logo"></a>
                         </div>
                         <div class="search-and-language-bar pull-right">
                             <ul>
@@ -85,29 +85,30 @@
                         </div>
                         <div id="main-nav" class="stellarnav">
                             <ul id="nav" class="nav navbar-nav">
-                                <li><a href="index.html">home</a></li>
-                                  <li><a href="express.html">Express</a>
+                                <li><a href="https://www.bwds.co.ke">home</a></li>
+                                  <li><a href="/express">Express</a>
                                      <ul>
-                                        <li><a href="express.html">BDS Express</a></li>
-                                        <li><a href="tracking.html">Tracking</a></li>
-                                        <li><a href="shipping.html">Export Services</a></li>
-                                        <li><a href="ticket.html">Ticketing</a></li>
+                                        <li><a href="/express">BDS Express</a></li>
+                                        <li><a href="/tracking">Tracking</a></li>
+                                        <li><a href="/shipping">Export Services</a></li>
+                                        <li><a href="/ticket">Ticketing</a></li>
                                     </ul>
 
                                   </li>
-                                  <li><a href="parcel-ecommerce.html">Parcel & eCommerce </a></li>
-                                  <li><a href="shipping.html">Logistics</a></li>
+                                  <li><a href="/parcel-ecommerce">Parcel & eCommerce </a></li>
+                                  <li><a href="/shipping">Logistics</a></li>
                                   <li><a href="https://bwds.co.ke:2096/cpsess0675551474/webmail/paper_lantern/index.html?login=1&post_login=97388163579863">Mails</a></li>
-                                  <li><a href="careers.html">Careers</a></li>
-                                <li><a href="about.html">about</a>
+                                  <li><a href="/careers">Careers</a></li>
+                                <li><a href="/about">about</a>
                                     <ul>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="about-company-history.html">About History</a></li>
+                                        <li><a href="/about">About</a></li>
+                                        <li><a href="/about-company-history">About History</a></li>
                                         
 
-                                        <li><a href="service.html">Service</a>
+                                        <li><a href="/service">Service</a>
                                     <ul>
-                                        <li><a href="service.html">Services</a></li>
+                                        <li><a href="/service">Service</a></li>
+                                        
                                     </ul>
                                 </li>
 
@@ -118,7 +119,8 @@
 
 
 
-                                <li><a href="contact.html">Contact</a>
+                                <li><a href="/contact">Contact</a>
+                                    
                                 </li>
                             </ul>
                         </div>
@@ -182,7 +184,7 @@
                     </div>
                     <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                         <div class="subscriber-form-area">
-                            <form action="search.php" method="post" class="subsriber-form">
+                            <form action="/search" method="post" class="subsriber-form">
                                 <label for="subscriber-mail"><i class="fa fa-envelope-o"></i></label>
                                 <input type="text" name="search" placeholder="shipment Code">
                                 <button type="submit">TRACK</button>
@@ -203,11 +205,11 @@
                     <div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
                         <div class="single-footer-widget footer-about">
                             <h3>About Us</h3>
-                            <p style="color: white">BDS Supply ,  BDS Group, is the world’s leading contract logistics provider. Combining value-added and......<a href="about.html" style="color: blue">More</a></p>
+                            <p style="color: white">BDS Supply ,  BDS Group, is the world’s leading contract logistics provider. Combining value-added and......<a href="about" style="color: blue">More</a></p>
                             <ul style="color: white">
                                 <li><i class="fa fa-phone"></i> <a href="callto:+324 602 12339" style="color: white">+324 602 12339</a></li>
 
-                                <li><i class="fad fa-paper-plane"></i> <a href="mailto:info@bds.co.ke" style="color: white">info@bds.co.ke</a></li>
+                                <li><i class="fad fa-paper-plane"></i> <a href="mailto:info@bwds.co.ke" style="color: white">info@bwds.co.ke</a></li>
                                 <li><i class="fa fa-map-marker"></i>Bruges Beer Museum, Breidelstraat 3, 8000, Brugge, BEL, country-Belgium</li>
                             </ul>
                         </div>
@@ -237,12 +239,12 @@
                         <div class="single-footer-widget list-widget">
                             <h3>Quick Links</h3>
                             <ul style="color: white">
-                                <li><a href="#" style="color: white">Home</a></li>
-                                <li><a href="#" style="color: white">About Us</a></li>
-                                <li><a href="#" style="color: white">Services</a></li>
-                                <li><a href="#" style="color: white">Express</a></li>
-                                <li><a href="#" style="color: white">Logistics</a></li>
-                                <li><a href="#" style="color: white">Contact Us</a></li>
+                                 <li><a href="https://bwds.co.ke/" style="color: white">Home</a></li>
+                                <li><a href="/about-company-history" style="color: white">About Us</a></li>
+                                <li><a href="/service" style="color: white">Services</a></li>
+                                <li><a href="/express" style="color: white">Express</a></li>
+                                <li><a href="/shipping" style="color: white">Logistics</a></li>
+                                <li><a href="/contact" style="color: white">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
