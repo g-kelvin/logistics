@@ -151,11 +151,11 @@
 	else{
 		$search = $_POST['search'];
 		
-		$qry =  "SELECT * FROM parcels where id = '$search'";
+		$qry =  "SELECT * FROM parcels where tracking = '$search'";
 		$res = mysqli_query($con,$qry);
 		if(mysqli_num_rows($res)>0){
 			while ($row= mysqli_fetch_assoc($res)){
-				echo "<center><h3><br><br>Parcel Number: " .$row['id']."<br> Sent By: ". $row['name']." Sent To: ". $row['rname']."<br> From ". $row['town']." To ". $row['rtown']." Was Sent on ". $row['datee']." ".$row['timee']."</h3></center><br><br>";
+				echo "<center><h3><br><br>Parcel Number: " .$row['id']." And Tracking Code ".$row['tracking']."<br> Sent By: ". $row['name']." Sent To: ". $row['rname']."<br> From ". $row['town']." To ". $row['rtown']." Was Sent on ". $row['datee']." ".$row['timee']."</h3></center><br><br>";
 			}
 		}
 		else{
